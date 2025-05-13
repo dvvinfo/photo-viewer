@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-</script>
-
 <template>
-  <RouterView />
+  <PhotoViewer />
 </template>
+
+<script setup lang="ts">
+import PhotoViewer from './components/PhotoViewer.vue'
+</script>
 
 <style scoped></style>
